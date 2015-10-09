@@ -1,1 +1,188 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css)
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #E9EAEE;
+}
+
+h1, h2, h3 {
+	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+	color: #BC6026;
+}
+
+svg {
+	height: 1em;
+}
+
+@media only screen and (min-width: 786px) {
+	body {
+		font-size: 20px;
+	}
+
+	h2 {
+		text-align: center;
+		bottom-padding: 1em;
+	}
+
+	#navigation {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	#navigation li {
+		padding: 1em;
+		padding-right: 1em;
+	}
+
+	.main {
+		background-image: url(../img/background-sm.jpg);
+		background-repeat: none;
+		color: white;
+		text-align: right;
+		padding-right: 3em;
+		min-height: 550px;
+	}
+
+	.slogan {
+		display: block;
+	}
+
+	#description {
+		font-size: 1.25em;
+		text-align: center;
+		padding-bottom: 3em;
+		padding-top: 3em;
+		font-style: italic;
+	}
+
+	#iconlist {
+		text-align: right;
+	}
+}
+
+
+@media only screen and (min-width: 992px) {
+	.main {
+		background-image: url(../img/background-md.jpg);
+		background-repeat: none;
+	}
+	.logo {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.main {
+		background-image: url(../img/background-lg.jpg);
+		background-repeat: none;
+	}
+}
+
+
+li {
+	display: inline;
+	color: white;
+	text-decoration: none;
+	font-variant: small-caps;
+	padding: .5em;
+
+}
+
+#navigate {
+	background-color: #181C22;
+	position: fixed;
+	z-index: 99999999;
+	top: 0px;
+	width: 100%;
+}
+
+#navigate ul {
+	padding-left: 0;
+}
+
+#navigate li > a {
+	color: white;
+	fill: white;
+	font-size: 16px;
+	padding-left: 15px;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+#navigate a:hover {
+	color: #D87E28;
+	fill: #D87E28;
+	text-decoration: none;
+}
+
+.main {
+	padding-top: 3em;
+}
+
+#description {
+	font-family: "Lato";
+	font-style: italic;
+}
+
+.container {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.pic {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	fill: #D87E28;
+}
+
+.items {
+	font-style: italic;
+	padding-left: 1em;
+}
+
+#main {
+	padding-top: 3em;
+}
+
+.slogan {
+	display: block;
+}
+
+#cafe {
+	text-align: center;
+	background-color: #DBDCE3;
+}
+
+#map {
+	border-radius: 5px;
+}
+
+#story {
+	background-color: #DBDCE3;
+}
+
+#woman {
+	float: right;
+	margin-left: 1em;
+	max-height: 300px;
+	border-radius: 5px;
+}
+
+#contact {
+	text-decoration: none;
+}
+
+footer {
+	border-top: 3px solid #D87E28;
+	background-color: #AFB3C2;
+	font-size: 12px;
+	padding-top: 1em;
+}
